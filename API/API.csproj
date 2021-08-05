@@ -12,4 +12,10 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Module.Catalog\Module.Catalog.csproj" />
+    <ProjectReference Include="..\Module.People\Module.People.csproj" />
+    <ProjectReference Include="..\Shared.Infrastructure\Shared.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
